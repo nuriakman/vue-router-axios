@@ -1,9 +1,10 @@
 <script setup>
-import SayfaHome from '../components/SayfaHome.vue'
+// import SayfaHome from "../components/SayfaHome.vue";
+console.log("HomeView.vue");
 </script>
 
 <template>
   <main>
-    <SayfaHome />
+    <h1>HOME Sayfası</h1>
   </main>
 </template>
