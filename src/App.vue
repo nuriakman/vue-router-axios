@@ -5,7 +5,7 @@ console.log("App.vue");
 
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink> |
+    <RouterLink to="/home">Home</RouterLink> |
     <RouterLink to="/users">Users</RouterLink> |
     <RouterLink to="/about">About</RouterLink>
   </nav>
