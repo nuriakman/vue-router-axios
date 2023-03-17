@@ -1,9 +1,11 @@
 <template>
-  <div>
+  <div v-if="users.length > 0">
     <h1>Kayıtlı Kullanıcılar</h1>
-    <ul v-if="users.length > 0">
+    <ul>
       <li v-for="user in users" :key="user.id">
-        <a href="x">{{ user.name }}</a> @{{ user.username }}
+        <a :href="'/users/' + user.id + '/posts'">{{ user.name }}</a> @{{
+          user.username
+        }}
       </li>
     </ul>
   </div>
